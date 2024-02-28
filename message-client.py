@@ -15,7 +15,7 @@ productUID = 'PRODUCTID'
 req = {'req':'hub.set'}
 req['product'] = productUID
 req['mode'] = 'continuous'
-req['interval'] = 2
+req['inbound'] = 2
 rsp = nCard.Transaction(req)
 print(rsp)
 
